@@ -1,0 +1,6 @@
+delete
+1234
+if($i == 1)
+{
+	echo 'test';
+}
