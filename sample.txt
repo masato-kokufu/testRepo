@@ -1,2 +1,6 @@
 sample
 sample
+$abc = 'hogehoge';
+while ($a > 0) {
+	echo 'aaaa';
+}
