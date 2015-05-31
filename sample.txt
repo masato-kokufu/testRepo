@@ -1,2 +1,6 @@
 sample
 sample
+okokok
+if( $a = 'abcdefg' ) {
+	echo 'hogehoge';
+}
