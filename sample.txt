@@ -1,5 +1,10 @@
 sample
 sample
+okokok
+$a = 'abcdefg';
+if( $a = 'abcdefg' ) {
+	echo 'hogehoge';
+}
 $abc = 'hogehoge';
 while ($a > 0) {
 	echo 'aaaa';
