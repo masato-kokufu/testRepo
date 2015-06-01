@@ -1,5 +1,8 @@
 sample
 sample
+tomorrow is fine.
+stash add
+stach add2
 okokok
 if( $a = 'abcdefg' ) {
 	echo 'hogehoge';
