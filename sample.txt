@@ -4,6 +4,11 @@ tomorrow is fine.
 stash add
 stach add2
 okokok
+$a = 'abcdefg';
 if( $a = 'abcdefg' ) {
 	echo 'hogehoge';
+}
+$abc = 'hogehoge';
+while ($a > 0) {
+	echo 'aaaa';
 }
