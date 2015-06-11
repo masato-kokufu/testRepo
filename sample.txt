@@ -5,10 +5,15 @@ stash add
 stach add2
 okokok
 $a = 'abcdefg';
+<?php
 if( $a = 'abcdefg' ) {
 	echo 'hogehoge';
+	echo $a .'bbbbb';
 }
 $abc = 'hogehoge';
 while ($a > 0) {
 	echo 'aaaa';
+}
+foreach ($abc as $k => $v) {
+    echo $k .'=>'. $v;
 }
