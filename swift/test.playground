@@ -1,0 +1,104 @@
+import UIKit
+
+var str = "Hello, playground"
+
+
+// page1
+
+/*
+struct Person {
+
+    enum Gender: Int {
+        case male, female
+    }
+
+    var gender: Gender
+    var age: Int
+    var address: String
+
+}
+
+var person1 = Person(gender: Person.Gender.female, age: 35, address: "Kyoto shi")
+println(person1.gender.rawValue)
+
+
+extension Int {
+    var absolute: Int {
+        return abs(self)
+    }
+}
+
+(-1).absolute
+
+extension Int {
+    static var zero: Int {
+        return 0
+    }
+}
+
+Int.zero
+
+
+extension Int {
+
+    func power(times: Int) -> Int {
+        return Int( pow(Double(self), Double(times)) )
+    }
+
+    mutating func negate() {
+        self = -self
+    }
+
+}
+
+3.power(4)
+var negate = -4
+negate.negate()
+
+extension Double {
+    subscript(digitIndex: Int) -> Int {
+        let degit = pow(10, Double(digitIndex))
+        return Int(self / degit) % 10
+    }
+}
+
+1234567.1234[1]
+1234567.1234[3]
+1234567.1234
+
+extension Int {
+    init?(_ string: String) {
+        if let num = string.toInt() {
+            self = num
+        } else {
+            return nil
+        }
+    }
+}
+
+Int("super")
+Int("1234")
+
+
+extension Int {
+
+    enum Sign {
+        case Plus
+        case Zero
+        case Minus
+    }
+
+    var sign: Sign {
+        if self > 0 {
+            return Sign.Plus
+        } else if self == 0 {
+            return .Zero
+        } else {
+            return Sign.Minus
+        }
+    }
+
+}
+
+var gg = (-5).sign
+1.sign
